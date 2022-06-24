@@ -22,10 +22,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* determines color of the h1 in the header and the "seo" in "Horiseon" */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* styles the top navigation menu at the top of the page */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,9 +36,11 @@ header nav {
     font-size: 20px;
 }
 
+/* determines the style of the list within the navigation menu at the top of the page */
 header nav ul {
     list-style-type: none;
 }
+
 
 header nav ul li {
     display: inline-block;
@@ -52,6 +56,7 @@ p {
     font-size: 20px;
 }
 
+/* styles the background of the page and provides an image for the background */
 .background {
     height: 800px;
     width: 100%;
@@ -61,13 +66,14 @@ p {
     background-position: center;
 }
 
-
+/* determines the style of the three main blocks of content on the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* determines the style of the search engine optimization block within content */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -77,6 +83,7 @@ p {
     color: #ffffff;
 }
 
+/* determines size of the image in the search-engine-optimization block */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -87,6 +94,7 @@ p {
     margin-right: 25px;
 }
 
+/* determines style of the h2 in the search engine optimization block */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -135,6 +143,7 @@ p {
     font-size: 36px;
 }
 
+/* styles the column of info on the right hand side of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -145,30 +154,30 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* determines the color and margins of the right hand side column */
 .benefit-common {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* styles the h3 on the right hand side column */
 .benefit-common h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* styles the images on the right hand side column */
 .benefit-common img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* styles the footer box at the bottom of the page */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* styles the footers h2 */
 footer h2 {
     font-size: 20px;
 }
