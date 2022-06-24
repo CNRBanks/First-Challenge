@@ -5,10 +5,17 @@
     margin: 0;
 }
 
+/* styles h2 within the page */
+h2 {
+    margin-bottom: 20px;
+    font-size: 200%;
+}
 
+/* determines the color of the background */
 body {
     background-color: #d9dcd6;
 }
+
 /* style affecting header */
 header {
     padding: 20px;
@@ -16,6 +23,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /* style the h1 of header */
 header h1 {
     display: inline-block;
@@ -41,17 +49,19 @@ header nav ul {
     list-style-type: none;
 }
 
-
+/* styles the list elements in the navigation menu at the top of the page */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* determines the color and decoration of all anchor elements within the page */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* determines font size of all paragraphs within the page */
 p {
     font-size: 20px;
 }
@@ -62,7 +72,7 @@ p {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
 }
 
@@ -73,58 +83,9 @@ p {
     margin-left: 20px;
 }
 
-/* determines the style of the search engine optimization block within content */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* determines size of the image in the search-engine-optimization block */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* keeps image in section to the left */
-.SEO-img {
-    float: left;
-    margin-right: 25px;
-}
-
-/* determines style of the h2 in the search engine optimization block */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* keeps image in section to the right */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* determines the style of the SEO,ORM,SSM blocks within content */
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -134,13 +95,23 @@ p {
     color: #ffffff;
 }
 
+/* determines size of the image in the SEO block */
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* keeps image in SEO and SMM sections to the left */
+.SEO-img {
+    float: left;
+    margin-right: 25px;
+}
+
+/* keeps image in section to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* styles the column of info on the right hand side of the page */
@@ -154,22 +125,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /* determines the color and margins of the right hand side column */
 .benefit-common {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 /* styles the h3 on the right hand side column */
 .benefit-common h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
 /* styles the images on the right hand side column */
 .benefit-common img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 /* styles the footer box at the bottom of the page */
 footer {
     padding: 30px;
@@ -177,6 +152,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 /* styles the footers h2 */
 footer h2 {
     font-size: 20px;
