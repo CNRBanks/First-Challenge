@@ -2,7 +2,7 @@
 
 ## Description
 
-My goal was to create a template of a home page for a Company that contains information on the services they provide.
+My goal was to create a home page for a Company that contains information on the services they provide.
 This site allows users to see the services provided by the company and learn more about each type of service.
 
 ## Usage
@@ -14,6 +14,10 @@ Users can click on any of the three services listed in the top right hand side o
 CSS tutorials from W3Schools https://my-learning.w3schools.com/tutorial/css
 
 HTML tutorials from W3Schools https://my-learning.w3schools.com/tutorial/html
+
+## Screenshot
+
+<img title="screenshot" src="assets/images/Preview.png">
  
 ## License
 
@@ -38,37 +42,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Screenshot
-
-<img title="screenshot" src="assets/images/Preview.png">
-
-WHEN I view the source code
-THEN I find semantic HTML elements <DONE?>
-
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning <DONE?>
-
-WHEN I view the image elements
-THEN I find accessible alt attributes <DONE>
-
-WHEN I view the heading attributes
-THEN they fall in sequential order <DONE?>
-
-WHEN I view the title element
-THEN I find a concise, descriptive title <DONE>
-
-<REWRITE THIS FILE to something that describes this project!>
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
